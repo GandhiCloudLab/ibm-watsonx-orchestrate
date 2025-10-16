@@ -5,17 +5,25 @@ The detailed info about this is avialable in https://developer.watson-orchestrat
 ## Get Service Instance URL and API Key
 
 1. Click on the User Icon in the top left.
+
 2. Click on **Settings**
   <img src="images/img11.png">
+
 3. Click on **API Details** tab
+
 4. Copy the **Service instance URL** value
   <img src="images/img12.png">
+
 5. Click on **Generate API key→** button
+
 6. Click on **Create→** button
   <img src="images/img14.png">
+
 7. Enter the required detail
+
 8. Click on **Create→** button
   <img src="images/img15.png">
+
 9. Click on **Copey** to copy the generated key
   <img src="images/img15.png">
 
