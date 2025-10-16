@@ -7,7 +7,7 @@ The detailed info is available [here](../001-setting-up-adk)
 
 ## 2. Import the MCP Server in local
 
-1. Goto the files folder of this repo 
+1. Goto the [files](../001-setting-up-adk) folder of this repo 
 
   ```
   cd ./ibm-watsonx-orchestrate/002-mcp-local-app/files
