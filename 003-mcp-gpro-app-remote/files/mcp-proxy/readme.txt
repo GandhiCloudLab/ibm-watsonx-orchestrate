@@ -1,0 +1,1 @@
+Clone the repo https://github.com/sparfenyuk/mcp-proxy into this folder.

@@ -2,7 +2,7 @@
 
 The detailed info about this is avialable in https://developer.watson-orchestrate.ibm.com/getting_started/installing
 
-## Get Service Instance URL and API Key
+## 1. Get Service Instance URL and API Key
 
 1. Click on the User Icon in the top left.
 
@@ -24,7 +24,7 @@ The detailed info about this is avialable in https://developer.watson-orchestrat
 8. Click on **Copy** to copy the generated key
   <img src="images/img15.png">
 
-## Start the ADK
+## 2. Start the ADK
 
 1. Replace the values of the following variables as required
 2. Run the below commands.

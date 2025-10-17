@@ -1,18 +1,13 @@
-# Deploying and Accessing MCP Server in Local
+# Deploying and Accessing Local MCP Server toolkit
 
 ## 1. Set up ADK
 
 The detailed info is available [here](../001-setting-up-adk) 
 
+## 2. Importing local MCP toolkits
 
-## 2. Import the MCP Server in local
+1. Goto the [files](./files) folder of this repo 
 
-1. Goto the [files](../001-setting-up-adk) folder of this repo 
-
-  ```
-  cd ./ibm-watsonx-orchestrate/002-mcp-local-app/files
-  ```
- 
 2. Run the below command.
 
   ```
@@ -41,7 +36,7 @@ The detailed info is available [here](../001-setting-up-adk)
 5. Click on **Create→** button
   <img src="images/img23.png">
 
-6. Click on **Toolset** button
+6. Click on **Toolset** menu
   <img src="images/img24.png">
   You can see the tools section is empty.
 
@@ -51,13 +46,13 @@ The detailed info is available [here](../001-setting-up-adk)
 8. Choose **Add from file or MCP server**
   <img src="images/img26.png">
 
-9. Choose **AImport from MCP server**
+9. Choose **Import from MCP server**
   <img src="images/img27.png">
 
-10. Choose **mcp_gpro_local**
+10. Choose **mcp_gpro_local** and click on **Close** icon on the top
   <img src="images/img28.png">
 
-11. Switch on **Activation toggle** for the selected tool **mcp_gpro_local**
+11. Switch on **Activation toggle** for the selected tool **mcp_gpro_local** and click on **Close** icon on the top
   <img src="images/img29.png"
   You can see the tool  **mcp_gpro_local: weather** got added to the agent.
   <img src="images/img30.png">
@@ -67,7 +62,9 @@ The detailed info is available [here](../001-setting-up-adk)
 
 13. Click on **Deploy** button
   <img src="images/img32.png">
+
 14. Choose the **mcp_gpro_local** agent
   <img src="images/img33.png">
+
 15. In the chat window, you can type your question related to weather of a city and get the answers. (Mock weather data only)
   <img src="images/img34.png">
