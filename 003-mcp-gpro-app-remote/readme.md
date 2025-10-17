@@ -1,4 +1,4 @@
-# Deploying and Accessing Remote MCP Server toolkit
+# Deploying and Accessing Remote MCP Server toolkit - Gpro app
 
 ## 1. Set up ADK
 

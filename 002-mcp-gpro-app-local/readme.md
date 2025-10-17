@@ -1,4 +1,4 @@
-# Deploying and Accessing Local MCP Server toolkit
+# Deploying and Accessing Local MCP Server toolkit - GPro app
 
 ## 1. Set up ADK
 
