@@ -29,11 +29,11 @@ The detailed info is available [here](../001-setting-up-adk)
 2. Click on **Create Agent**
   <img src="images/img22.png">
 
-3. Enter the **Name :** 
+3. Enter the **Name :** `mcp_gpro_local`
 
 4. Enter the **Description :** `The MCP Gpro Agent assists with finding weather for the given city using the tool available.`
 
-5. Click on **Create→** button
+5. Click on **Create** button
   <img src="images/img23.png">
 
 6. Click on **Toolset** menu
@@ -52,8 +52,9 @@ The detailed info is available [here](../001-setting-up-adk)
 10. Choose **mcp_gpro_local** and click on **Close** icon on the top
   <img src="images/img28.png">
 
-11. Switch on **Activation toggle** for the selected tool **mcp_gpro_local** and click on **Close** icon on the top
+11. Switch on **Activation toggle** for the selected tool **mcp_gpro_local** and click on **Close** icon on the top.
   <img src="images/img29.png"
+  
   You can see the tool  **mcp_gpro_local: weather** got added to the agent.
   <img src="images/img30.png">
 
@@ -62,6 +63,8 @@ The detailed info is available [here](../001-setting-up-adk)
 
 13. Click on **Deploy** button
   <img src="images/img32.png">
+
+The Agent builder screen show the **mcp_gpro_local** agent.
 
 14. Choose the **mcp_gpro_local** agent
   <img src="images/img33.png">

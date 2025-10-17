@@ -16,9 +16,9 @@ The detailed info about this is avialable in https://developer.watson-orchestrat
 5. Click on **Generate API key→** button
   <img src="images/img12.png">
 
-6. Enter the required detail
+6. Enter the required details
 
-7. Click on **Create→** button
+7. Click on **Create** button
   <img src="images/img14.png">
 
 8. Click on **Copy** to copy the generated key
