@@ -4,33 +4,20 @@
 
 The detailed info is available [here](../001-setting-up-adk)
 
-## 2. Importing remote MCP toolkits using ADK CLI
+## 2. Deploy Gpro app in Remote
 
 1. Download all files and subfolders from [here](./files)
 
 2. A simple app is available at the folder **./mcp_gpro_remote**. Deploy this app in IBM Code Engine or in some remote system.
 
-3. Update the APP_URL property of the **./deploy_remote.sh** file with the above url. Don't forget to end the url with **mcp**.
+3. Update the below `APP_URL` property of the **./deploy_remote.sh** file with the above url. Don't forget to end the url with **mcp**.
   ```
   APP_URL="https://mcp-gpro-app.xxxxxxxx.us-east.codeengine.appdomain.cloud/mcp"
   ```
 
-3. Run the below command.
-  ```
-  ./deploy_remote.sh
-  ```
-
-  You might have got the output like this.
-  ```
-  [ERROR] - This functionality is only available for Local Environments
-  [INFO] - Successfully imported tool kit mcp_gpro_remote
-  ```
-
 ## 3. Importing remote MCP toolkits using ADK CLI
 
-1. Goto the [files](./files) folder of this repo 
-
-2. Run the below command.
+1. Run the below command.
 
   ```
   ./deploy_remote.sh
@@ -43,12 +30,12 @@ The detailed info is available [here](../001-setting-up-adk)
   [INFO] - Successfully imported tool kit mcp_gpro_remote
   ```
 
-## 4. Create Agent and import tool from MCP
+## 4. Create Agent (mcp_gpro_remote) and import tool from remote MCP
 
 1. Click on **Create Agent**
   <img src="images/img11.png">
 
-2. Enter the **Name :**
+2. Enter the **Name :** `mcp_gpro_remote`
 
 3. Enter the **Description :** `The MCP Gpro Remote Agent assists with finding price for the given product using the tool available.`
 
@@ -71,7 +58,7 @@ The detailed info is available [here](../001-setting-up-adk)
   <img src="images/img16.png">
 
 11. Switch on **Activation toggle** for the selected tool **mcp_gpro_remote:price** and click on **Close** icon on the top
-  <img src="images/img17.png"
+  <img src="images/img17.png">
 
   You can see the tool  **mcp_gpro_remote: price** got added to the agent.
 

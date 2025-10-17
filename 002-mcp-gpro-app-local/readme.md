@@ -21,7 +21,7 @@ The detailed info is available [here](../001-setting-up-adk)
   [INFO] - Successfully imported tool kit mcp_gpro_local
   ```
 
-## 3. Create Agent and import tool from MCP
+## 3. Create Agent (mcp_gpro_local) and import tool from local MCP
 
 1. Click on **Build** >  **Agent Builder**
   <img src="images/img21.png">
@@ -53,7 +53,7 @@ The detailed info is available [here](../001-setting-up-adk)
   <img src="images/img28.png">
 
 11. Switch on **Activation toggle** for the selected tool **mcp_gpro_local** and click on **Close** icon on the top.
-  <img src="images/img29.png"
+  <img src="images/img29.png">
   
   You can see the tool  **mcp_gpro_local: weather** got added to the agent.
   <img src="images/img30.png">
@@ -64,7 +64,7 @@ The detailed info is available [here](../001-setting-up-adk)
 13. Click on **Deploy** button
   <img src="images/img32.png">
 
-The Agent builder screen show the **mcp_gpro_local** agent.
+  The Agent section screen show the **mcp_gpro_local** agent.
 
 14. Choose the **mcp_gpro_local** agent
   <img src="images/img33.png">
