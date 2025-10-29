@@ -26,7 +26,7 @@ The objective of this document is to explain about how to use flow in watsonx Or
   --data '{ "source_city": "Pune", "destination_city": "Mumbai" }'
   ```
 
-### 2.2 Deploy the App in a Sever and Get Open API
+### 2.2 Deploy the App in a Sever and get Open API
 
 1. Create docker image and push it to registry. Don't foget to change the repo name `gandigit/wxo_news1`.
 
