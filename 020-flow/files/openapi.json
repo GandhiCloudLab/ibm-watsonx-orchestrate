@@ -1,0 +1,162 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "title": "News Alerts API",
+        "description": "API to get news alerts for a route",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "https://aaa.com",
+            "description": "Local development server"
+        }
+    ],
+    "paths": {
+"/": {
+"get": {
+"summary": "Home",
+"operationId": "home__get",
+"responses": {
+"200": {
+"description": "Successful Response",
+"content": {
+"application/json": {
+"schema": {}
+}
+}
+}
+}
+}
+},
+"/news": {
+"get": {
+"summary": "Get News",
+"description": "Given a route (source and destination),\nfetch related news updates that may affect travel.",
+"operationId": "get_news_news_get",
+"requestBody": {
+"content": {
+"application/json": {
+"schema": {
+"$ref": "#/components/schemas/RequestModel"
+}
+}
+},
+"required": true
+},
+"responses": {
+"200": {
+"description": "Successful Response",
+"content": {
+"application/json": {
+"schema": {
+"$ref": "#/components/schemas/ResponseModel"
+}
+}
+}
+},
+"422": {
+"description": "Validation Error",
+"content": {
+"application/json": {
+"schema": {
+"$ref": "#/components/schemas/HTTPValidationError"
+}
+}
+}
+}
+}
+}
+}
+},
+"components": {
+"schemas": {
+"HTTPValidationError": {
+"properties": {
+"detail": {
+"items": {
+"$ref": "#/components/schemas/ValidationError"
+},
+"type": "array",
+"title": "Detail"
+}
+},
+"type": "object",
+"title": "HTTPValidationError"
+},
+"RequestModel": {
+"properties": {
+"source_city": {
+"type": "string",
+"title": "Source City"
+},
+"destination_city": {
+"type": "string",
+"title": "Destination City"
+}
+},
+"type": "object",
+"required": [
+"source_city",
+"destination_city"
+],
+"title": "RequestModel"
+},
+"ResponseModel": {
+"properties": {
+"msg": {
+"type": "string",
+"title": "Msg"
+},
+"city": {
+"type": "string",
+"title": "City"
+},
+"news": {
+"type": "string",
+"title": "News"
+}
+},
+"type": "object",
+"required": [
+"msg",
+"city",
+"news"
+],
+"title": "ResponseModel"
+},
+"ValidationError": {
+"properties": {
+"loc": {
+"items": {
+"anyOf": [
+{
+"type": "string"
+},
+{
+"type": "integer"
+}
+]
+},
+"type": "array",
+"title": "Location"
+},
+"msg": {
+"type": "string",
+"title": "Message"
+},
+"type": {
+"type": "string",
+"title": "Error Type"
+}
+},
+"type": "object",
+"required": [
+"loc",
+"msg",
+"type"
+],
+"title": "ValidationError"
+}
+}
+}
+}
