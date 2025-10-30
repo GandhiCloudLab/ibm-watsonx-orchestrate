@@ -1,14 +1,12 @@
-#  Finding News Alerts between cities using watsonx Orchestrate Flow builder
+# watsonx Orchestrate Flow builder -  Finding News Alerts between cities 
 
-## 1. Objective
-
-The objective of this document is to explain about how to use flow in watsonx Orchestrate (wxo) to find the news alerts between the cities as like below.
+The objective of this document is to explain about how to use flow in watsonx Orchestrate (wxo) to find the news alerts between two cities as like below.
 
   <img src="images/img11.png"> 
 
-## 2. Develop an app that returns the news alerts
+## 1. Develop an app that returns the news alerts
 
-### 2.1 Develop the App
+### 1.1 Develop the App
 
 1. Download the sample app from [here](./files/)
 
@@ -26,7 +24,7 @@ The objective of this document is to explain about how to use flow in watsonx Or
   --data '{ "source_city": "Pune", "destination_city": "Mumbai" }'
   ```
 
-### 2.2 Deploy the App in a Sever and get Open API
+### 1.2 Deploy the App in a Sever and get Open API
 
 1. Create docker image and push it to registry. Don't foget to change the repo name `gandigit/wxo_news1`.
 
@@ -54,7 +52,7 @@ The objective of this document is to explain about how to use flow in watsonx Or
   ```
 
 
-## 3. Create a Get News Tool with the app in WXO
+## 2. Create Tool with the app in WXO
 
 1. Create a tool **Get News** by importing the above Open API Json
   <img src="images/img21.png"> 
@@ -63,7 +61,7 @@ The objective of this document is to explain about how to use flow in watsonx Or
   <img src="images/img23.png"> 
   <img src="images/img24.png"> 
 
-## 4. Create a Tool with Flow builder
+## 3. Create Tool with Flow builder
 
 Need to create a Flow Builder and use the above created Get News tool.
 
@@ -102,14 +100,14 @@ The end can be like this.
 
 <img src="images/img40.png"> 
 
-## 5. Create an Agent to Test the flow 
+## 4. Create an Agent to test the Flow 
 
 The agent with the abolve Flow can be created like this.
 
 <img src="images/img41.png"> 
 <img src="images/img42.png"> 
 
-## 6. The result
+## 5. Result
 
 The agent can be queried and it could return the news alerts with the risk percentage like this.
 
