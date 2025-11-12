@@ -36,30 +36,30 @@ You should have received the mail below.
   <img src="images/img15.png"> 
 
 4. Click on **Verify your Identity** button or the relevant button according to your user type and follow the login process.
-  <img src="images/img15.png"> 
+  <img src="images/img16.png"> 
 
 5. Check the **I accept..** option
 
 6. Click on **Join Account** button
-  <img src="images/img16.png"> 
+  <img src="images/img17.png"> 
 
 ## 3. Access the watsonx Orchestrate
 
 You should have displayed with this screen.
 
 1. Click on the top left icon
-  <img src="images/img17.png"> 
+  <img src="images/img18.png"> 
 
 2. Click on the **Resource List** menu
-  <img src="images/img18.png"> 
+  <img src="images/img19.png"> 
 
 3. Click the **• AI / Machine Learning (1)** menu
 
 4. Click the instance **itzwxo-5500028307-9zkny** menu
-  <img src="images/img19.png"> 
-
-5. Click the instance **Launch watsonx Orchestrate** button
   <img src="images/img20.png"> 
 
-You have the watsonx Orchestrate home page.
+5. Click the instance **Launch watsonx Orchestrate** button
   <img src="images/img21.png"> 
+
+You have the watsonx Orchestrate home page.
+  <img src="images/img22.png"> 
